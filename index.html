@@ -15,14 +15,16 @@
     <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;800&display=swap" rel="stylesheet">
     <!-- style -->
     <style>
-    .font-manrope{font-family: 'Manrope', sans-serif;}
+        .font-manrope {
+            font-family: 'Manrope', sans-serif;
+        }
     </style>
 </head>
 <header class="container mx-auto font-manrope">
     <!-- nav section -->
     <nav>
         <div class="navbar bg-base-100">
-            <div class="navbar-start lg:mx-28 ">
+            <div class="navbar-start lg:mx-20 ">
                 <div class="dropdown lg:hidden">
                     <div tabindex="0" role="button" class="btn btn-ghost btn-circle">
                         <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
@@ -53,7 +55,7 @@
                     </ul>
                 </div>
             </div>
-            <div class="navbar-end mx-10 lg:mx-28">
+            <div class="navbar-end mx-5 lg:mx-20">
                 <button class="btn btn-ghost btn-circle hidden">
                     <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
                         stroke="currentColor">
@@ -67,6 +69,28 @@
         </div>
         </div>
     </nav>
+    <!-- banner section starts from here -->
+    <div class="mb-20px">
+        <div class="flex justify-center ">
+            <div class="carousel w-[1170px] pt-[50px] ">
+                <div id="slide1" class="carousel-item relative w-full">
+                    <img class="p-5" src="Images/banner.png" class="w-full" />
+                    <div class="absolute flex gap-4 lg:gap-8 left-[41%] lg:left-8 top-[75%] lg:top-[80%]">
+                        <a href="#slide4"
+                            class="bg-white flex justify-center items-center rounded-full lg:h-[50px] lg:w-[50px] lg:h-[50px] h-[30px] w-[30px]">❮</a>
+                        <a href="#slide2"
+                            class="bg-white flex justify-center items-center rounded-full lg:h-[50px] gap-4 lg:gap-8 lg:w-[50px] lg:h-[50px] h-[30px] w-[30px]">❯</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+             <!-- <div
+                class="bg-black   text-white w-auto lg:w-[440px] lg:p-4 space-y-2 absolute lg:left-[56%] lg:bottom-[100px] rounded-lg">
+                <h1 class="text-2xl font-extrabold  ">Meet all the heroes from the field</h1>
+                <p class="text-sm w-[300px] lg:w-[350px] ">There have been 14 full international tournamentswhere it was
+                    possible for all NHL players.</p>
+            </div> -->
+    </div>
 </header>
 <main></main>
 <footer>
