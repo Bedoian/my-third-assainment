@@ -35,11 +35,11 @@
                     </div>
                     <ul tabindex="0"
                         class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
-                        <li><a>Home</a></li>
-                        <li><a>About</a></li>
-                        <li><a>Pages</a></li>
-                        <li><a>Blog</a></li>
-                        <li><a>Contact</a></li>
+                        <li><div>Home</div></li>
+                        <li><div>About</div></li>
+                        <li><div>Pages</div></li>
+                        <li><div>Blog</div></li>
+                        <li><div>Contact</div></li>
                     </ul>
                 </div>
                 <h1 class=" text-2xl lg:text-4xl font-extrabold">Hockey<span class="text-red-500">’</span>s</h1>
@@ -47,11 +47,11 @@
             <div class="navbar-center">
                 <div class="flex">
                     <ul tabindex="0" class="lg:flex gap-[44px] hidden font-normal">
-                        <li><a class="text-red-500">Home</a></li>
-                        <li><a>About</a></li>
-                        <li><a>Pages</a></li>
-                        <li><a>Blog</a></li>
-                        <li><a>Contact</a></li>
+                        <li><div class="text-red-500">Home</div></li>
+                        <li><div>About</div></li>
+                        <li><div>Pages</div></li>
+                        <li><div>Blog</div></li>
+                        <li><div>Contact</div></li>
                     </ul>
                 </div>
             </div>
@@ -76,10 +76,10 @@
                 <div id="slide1" class="carousel-item relative w-full">
                     <img class="p-5" src="Images/banner.png" class="w-full" />
                     <div class="absolute flex gap-4 lg:gap-8 left-[41%] lg:left-8 top-[75%] lg:top-[80%]">
-                        <a href="#slide4"
-                            class="bg-white flex justify-center items-center rounded-full lg:h-[50px] lg:w-[50px] lg:h-[50px] h-[30px] w-[30px]">❮</a>
-                        <a href="#slide2"
-                            class="bg-white flex justify-center items-center rounded-full lg:h-[50px] gap-4 lg:gap-8 lg:w-[50px] lg:h-[50px] h-[30px] w-[30px]">❯</a>
+                        <div href="#slide4"
+                            class="bg-white flex justify-center items-center rounded-full lg:h-[50px] lg:w-[50px] lg:h-[50px] h-[30px] w-[30px]">❮</div>
+                        <div href="#slide2"
+                            class="bg-white flex justify-center items-center rounded-full lg:h-[50px] gap-4 lg:gap-8 lg:w-[50px] lg:h-[50px] h-[30px] w-[30px]">❯</div>
                     </div>
                 </div>
             </div>
@@ -144,8 +144,27 @@
         </div>
     </section>
     <!-- Program Sections starts from here -->
-    <section>
-
+    <section class="mt-20">
+        <div>
+            <div>
+                <h1 class="text-4xl font-extrabold text-center">Program Sections</h1>
+                <p class="text-base text-[#0d0d1280] text-center mb-5 mt-3">That's all about our training programme.Our
+                    exparienced coutch are tained our student. <br> S0, it can be a great opportunity for you</p>
+            </div>
+            <div class="gap-6">
+                <div class="grid lg:grid-cols-3 gap-4">
+                    <div>
+                        <img src="Images/2.png" alt="">
+                        <h1 class="text-4xl font-extrabold">Junior Program</h1>
+                        <p>Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit
+                            enim sagittis turpis in magna. Id et sed euismod natoque amet nunc morbi nulla. Tortor
+                            congue sed et in.</p>
+                    </div>
+                    <img src="Images/3.png" alt="">
+                    <img class="col-span-2" src="Images/4.png" alt="">
+                </div>
+            </div>
+        </div>
     </section>
     <!-- Our new product section -->
     <section class="mt-20">
@@ -357,7 +376,7 @@
         </div>
     </section>
     <!-- Client Question section -->
-    <section class="mt-20">
+    <section class="mt-20 mb-20">
         <div>
             <h1 class="text-4xl font-extrabold text-center">Clients Question</h1>
             <p class="text-center text-base text-[#13131880] mt-[30px]">Every client can Question us about their
@@ -429,8 +448,56 @@
         </div>
     </section>
 </main>
-<footer>
-
+<footer class="lg:m-0 m-4">
+    <footer class="footer p-10 bg-neutral text-neutral-content">
+        <nav>
+            <div class="link link-hover text-3xl font-bold text-[#FFFFFF]">Get In Touch</div>
+            <div class="link link-hover text-base pt-3 pb-3">
+                <p>Contact us with this social media <br> linkDit amet consectetur. Condimentum <br> adipiscing aliquam
+                    turpis placerat dolor. </p>
+            </div>
+            <div class="flex gap-2">
+                <img src="Images/msg.png" alt="">
+                <div class="link link-hover">hockeys@support.com</div>
+            </div>
+            <div class="flex gap-2">
+                <img src="Images/call.png" alt="">
+                <div class="link link-hover">(+62) 123-321-543</div>
+            </div>
+        </nav>
+        <div class="flex lg:gap-[300px] gap-3">
+            <div>
+                <h3 class="text-2xl font-bold pb-3">Company</h3>
+                <div class="space-y-3 text-xl">
+                    <h4>About Us </h4>
+                    <h4>Ledership</h4>
+                    <h4>Careears</h4>
+                    <h4>News and Article</h4>
+                    <h4>Legal Notice</h4>
+                </div>
+            </div>
+            <div>
+                <h3 class="text-2xl font-bold pb-3">Support</h3>
+                <div class="space-y-3 text-xl">
+                    <h4>Help center</h4>
+                    <h4>FAQ</h4>
+                    <h4>Careears</h4>
+                    <h4>Tiket Support</h4>
+                    <h4>Contact us</h4>
+                </div>
+            </div>
+        </div>
+        <nav class="relative lg:left-0 left-24">
+            <div class="link link-hover text-2xl font-bold pb-3 ">Services</div>
+            <div class="space-y-3 text-xl ">
+                <div>Acadamy</div>
+                <div>Group lesson</div>
+                <div>Privet lesson</div>
+                <div>Hockeys for kids</div>
+                <div>Hockeys for Adult</div>
+            </div>
+        </nav>
+    </footer>
 </footer>
 
 <body>
